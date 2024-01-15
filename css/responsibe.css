@@ -1,0 +1,21 @@
+@media screen and (max-width:600px) {
+    .banner{
+        padding: 10px;
+    }
+    .form{
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+    }
+    .form input, .form select, .form button{
+        width: 100%;
+    }
+    .destination-place-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-place-img-container img{
+        width: 100%;
+    }
+
+}
