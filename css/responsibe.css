@@ -13,7 +13,8 @@
     .destination-section,
     .choice-container,
     .first-container,
-    .second-container
+    .second-container,
+    .newsletter-subscribe
     {
         width: 90%;
         margin: 0 auto;
@@ -45,4 +46,15 @@
         width: 90%;
         margin-bottom: .8rem;
     }
+    .newsletter{
+        margin-top:1rem ;
+    }
+    .newsletter-subscribe input, 
+    .newsletter-subscribe button{
+        width: 100%;
+    }
+    .News-img-container img{
+        width: 90%;
+    }
+   
 }
