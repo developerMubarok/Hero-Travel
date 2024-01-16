@@ -114,9 +114,8 @@ nav>ul li a{
 .form{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    display: inline-flex;
+    display: flex;
     padding: 16px;
-    align-items: flex-start;
     gap: 24px;
 }
 .form input, .form select, .form button{

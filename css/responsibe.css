@@ -25,6 +25,14 @@
         margin-top: 1rem;
         gap: 1rem;
     }
+.form input, .form select, .form button{
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--secondary);
+    border: none;
+    width: 100%;
+}
+
 
     .popular-tours,
     .popular-tours-img,
