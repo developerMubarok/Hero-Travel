@@ -17,7 +17,7 @@
 }
 
 .common-section-title {
-    color: #131318;
+    color: #131318; 
     font-size: 2.4rem;
     font-weight: 800;
     margin-bottom: 1.3rem;
@@ -76,12 +76,6 @@ nav>ul li a{
     font-weight: 800;
     line-height: normal;
 }
-/* .items-container{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 .home{
     color: #FF5400;
     font-size: 18px;
@@ -302,7 +296,39 @@ main{
     font-weight: 400;
     padding: 1rem;
 }
-/*  */
+/* More traveling section styles */
+.travel-section{
+    max-width: 1170px;
+    margin: 50px auto 100px;
+}
+.grid-container{
+    min-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.travel-container{
+    background-color: #e6e9eb;
+    padding: 15px;
+    border-radius: 5px;
+}
+.travel-container img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.heading-icon{
+    justify-content: space-between;
+    align-items: center;
+}
+.plane{
+    background-color: #e893cf;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Nesletter section styles */
 .newsletter{
     gap: 2rem;
     margin-top: 6rem;
@@ -393,9 +419,6 @@ hr {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
-}
-.icon-img{
-    width: 48px;
 }
 .icons{
     padding-top: 1.6rem;
