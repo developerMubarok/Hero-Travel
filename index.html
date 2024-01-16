@@ -10,17 +10,19 @@
 <body>
     <header>
         <!-- Nav section start -->
-       <nav class="header-section">
-        <div class="nav-container">
+       <nav class="header-section flex">
+        <div class="nav-container flex">
           <img src="./image/travel img.jpg" alt="">
           <p>Hero <span class="travel"> Travel </span></p>
         </div>
         <div class="items-container">
-            <a href=""><span class="home">Home</span></a>
-            <a href="">Pakages</a>
-            <a href="">Testimonial</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
+                    <ul class="ul flex">
+                        <li><a href=""><span class="home">Home</span></a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>         
         </div>
         <div class="menu-icon hide">
             <img src="Images/Vector.png" alt="">
@@ -30,9 +32,9 @@
       <!-- Banner section Start -->
       <section class="Banner-section">
         <div class="Banner">
-            <div class="banner-title">
-                <h1>Explore Your Travel</h1>
-                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <div class="banner-contant">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
                 <form class="form">
                     <input type="text" placeholder="where go" id="">
                     <select id="when">
@@ -54,7 +56,7 @@
     </header>
     <main>
         <!-- popular Tours section star-->
-        <section class="popular">
+        <section class="popular container flex">
             <div class="popular-tours">
              <h2 class="popular-title">Our Popular Tours</h2>
              <p class="popular-sub-title">  Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
@@ -111,6 +113,36 @@
                     <img src="./image/Rectangle 11.png" alt="">
                     <h1 class="img-title">Bandarban</h1>
                 </div>
+            </div>
+        </section>
+          <!-- Why choice us section -->
+          <section class="choice-container container">
+             <div class="common-section-content">
+                <h1 class="common-section-title">Why Choose Us</h1>
+                <p class="common-section-description">Why you choose us? It's a common question. We ensure our customers safety. <br> Here the more reason that's why you choose us</p>
+             </div>
+             <div class="hotel-container flex">
+                <div class="first-container">
+                    <img src="./image/" alt="" class="image">
+                    <h3 class="hotel-title">Handpicked Hotels</h3>
+                    <p class="hotel-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                 </div>
+                 <div class="second-container">
+                    <img src="./image/" alt="" class="image">
+                    <h3 class="hotel-title">Handpicked Hotels</h3>
+                    <p class="hotel-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                 </div>
+             </div>
+             <div class="third-container">
+                <img src="./image/" alt="" class="image">
+                <h3 class="hotel-title">Handpicked Hotels</h3>
+                <p class="hotel-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+             </div>
+          </section>
+          <!-- Why choice us section end -->
+          <!-- Newsletter Section -->
+        <section class="news container">
+            <div class="newsletter flex">
 
             </div>
 

@@ -4,20 +4,61 @@
     font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.common-section-content {
+    text-align: center;
+}
+
+.common-section-title {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 1.3rem;
+}
+
+.common-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1.4rem;
+}
 /* Navber section styles */
 header{
     max-width: 1170px;
     margin: 50px auto 100px;
-    border: 2px solid red;
 }
 .header-section{
-    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-container{
-    min-height: 40px;
-    display: flex;
     align-items: center;
-    width: 50%;
+    gap: 1.5rem;
+}
+.ul{
+    list-style: none;
+    gap: 0.5rem;
+    padding: .10rem;
+}
+.ul li a{
+    text-decoration: none;
+    color: #424247;
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.ul-container li a:hover {
+    background-color: #8080800e;
+    border-radius: .5rem;
+    color: #FF5400;
 }
 .nav-container img{
     width: 48px;
@@ -49,45 +90,33 @@ header{
     font-weight: 700;
     line-height: normal;
 }
-.items-container a{
-    text-decoration: none;
-    color:  #424247;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.hide{
-    display: none;
-}
 /* Banner section style */
 .Banner{
-    border: 2px solid red;
-    height: 500px;
+    height: 600px;
+    margin-top: 2rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../image/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center; 
+    border-radius: 1rem;
+     
+}
+.banner-contant{
+    margin: 0 auto;
+    max-width: 690px;
+    text-align: center;
 }
 .banner-title{
-    padding: 100px 180px;
-}
-.banner-title h1{
     color: #FFF;
-    font-size: 64px;
-    font-style: normal;
+    font-size: 4rem;
     font-weight: 800;
-    line-height: normal;
+    padding-top: 6.9rem;
+    padding-bottom: 1rem;
 }
-.banner-title p{
+.banner-description{
     color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: .5rem;
 }
 .form{
     border-radius: 8px;
@@ -117,13 +146,12 @@ header{
 main{
     max-width: 1170px;
     margin: 50px auto 100px;
-    border: 2px solid red;
 }
 /* popular Tours section */
 .popular{
-    display: flex;
-    /* justify-content: space-between; */
+    margin: 5rem auto;
     gap: 3.2rem;
+    margin-bottom: 0;
 }
 .popular-tours{
     text-align: left;
@@ -229,4 +257,48 @@ main{
     font-size: 1.8rem;
     font-weight: 800;
 }
-   
+/* Why choice us section */
+.choice-container{
+    margin-top: 6rem;
+}
+.first-container,
+.second-container{
+    max-width: 630px;
+    max-height: 280px;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+.hotel-container{
+    gap: 1.5rem;
+  } 
+  .first-container {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.second-container {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.third-container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 630px;
+    max-height: 280px;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.hotel-title{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+.hotel-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
